@@ -1,7 +1,6 @@
-import random
 import turtle
 from turtle import Turtle,Screen
-from random import randint
+
 
 turtle.colormode(255)
 tim=Turtle()
@@ -26,13 +25,3 @@ screen.onkey(key='d',fun=right)
 screen.onkey(key='a',fun=left)
 screen.onkey(key='c',fun=clear)
 screen.exitonclick()
-
-
-
-
-
-
-
-
-
-
